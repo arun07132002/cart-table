@@ -1,38 +1,99 @@
-.App {
+.btn {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 50px;
+  font-size: 2rempx;
+}
+.body {
+  background-color: black;
+  color: aqua;
+  text-align: center;
+}
+.rowshopping {
+  display: flex;
+  flex-direction: row;
+}
+.tablebox {
+  border: #282c34 solid;
+  background-color: rgb(138, 135, 141);
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.prodectTable:hover {
+  background-color: rgb(111, 111, 114);
+  transition: 1s all ease-in-out;
+  border-color: white;
+}
+.prodectTable {
+  border: #282c34 solid;
+  background-color: #282c34;
+  text-align: center;
+  width: 75%;
+  margin-top: 2rem;
+  font-weight: 100;
+  padding: 0.8rem;
+  row-gap: 30px;
+  column-gap: 3rem;
+  position: relative;
+}
+.shoppingCart {
+  border: #282c34 solid;
+  background-color: #282c34;
+  width: 75%;
+  margin-top: 2rem;
+  font-weight: 100;
+  padding: 0.8rem;
+  row-gap: 30px;
+  column-gap: 3rem;
+  text-align: center;
+}
+.shoppingCart:hover {
+  background-color: rgb(111, 111, 114);
+  transition: 1s all ease-in-out;
+  border-color: white;
+}
+.headerName {
+  border: solid black;
+  background-color: aqua;
+  color: black;
+  width: 1rem;
+}
+.buttonAdd {
+  border-radius: 10px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 15px;
+}
+.buttonAdd:hover {
+  background-color: green;
+}
+.deletebtn {
+  border-radius: 10px;
+  width: 6rem;
+  height: 2.5rem;
+  font-size: 15px;
+}
+.deletebtn:hover {
+  background-color: rgb(160, 7, 7);
+}
+.Totalprice {
+  font-weight: 10px;
+  margin: 3rem 0rem 3rem;
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+  width: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.divbox {
   background-color: #282c34;
   min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
